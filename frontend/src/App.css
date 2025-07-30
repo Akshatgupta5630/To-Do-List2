@@ -1,0 +1,90 @@
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 4rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.todo-input {
+  display: flex;
+  gap: 0.5rem;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f1f1f1;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  gap: 0.5rem;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+li input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+li input[type="text"] {
+  flex: 1;
+}
+
+li span {
+  flex: 1;
+}
+
+li button {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+}
